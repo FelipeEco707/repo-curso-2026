@@ -1,10 +1,10 @@
 # ECON 520 - Ciencia de Datos para Economía y Negocios
 
 > Docentes: Sergio De Raco y Viktoriya Semeshenko
-> Versión: Segundo cuatrimestre 2025
+> Versión: Primer cuatrimestre 2026
 
 ```
-19 de Agosto, 2025
+18 de Marzo, 2026
 ```
 
 ## Objetivos de aprendizaje
@@ -39,9 +39,7 @@ Para la aprobación del curso se requiere:
 4. elaboración y aprobación de un proyecto de datos final en grupos
 
 ## Clases
-Cronograma tentativo de clases (https://bit.ly/e520-2025c2-crono) con conenidos y links a material actualizados a medida que avanza el curso.
-
-
+[Cronograma tentativo de clases](https://bit.ly/Cronograma-E520-2026C1) con conenidos y links a material actualizados a medida que avanza el curso.
 
 ## Resumen de contenidos
 
@@ -53,7 +51,7 @@ Cronograma tentativo de clases (https://bit.ly/e520-2025c2-crono) con conenidos 
 
 * *Unidad 2a. Aplicaciones 1: Redes de interacciones*. Introducción al análisis de redes en R. Statistical Analysis of Network Data. Tutorial Kateto. Casos: Redes Gutenberg/Redes sociales ONA Book (API tweets British network) o Trump 
 
-* *Unidad 2b. Aplicaciones 2: Captura de datos no tradicionales*. Scraping 101 (rvest). CRAN vignette/ LADAL web crawling and scraping/Recursos para scraping en W3schools (tutoriales y selectores) 
+* *Unidad 2b. Aplicaciones 2: Captura de datos no tradicionales*. Utilización de APIs para la captura de datos. 
 
 * *Unidad 2c. Aplicaciones 3: Text mining*. Introducción al análisis de textos en R. Tidytext con novelas y datos de Twitter. 
 
@@ -64,11 +62,9 @@ El material para el curso fue extraído y transformado de diversas fuentes, de l
   
 -   [https://kateto.net/network-visualization](https://kateto.net/network-visualization)    
 -   [https://github.com/kolaczyk/sand](https://github.com/kolaczyk/sand)
--   [https://programminghistorian.org/es/lecciones/introduccion-al-web-scraping-usando-r](https://programminghistorian.org/es/lecciones/introduccion-al-web-scraping-usando-r)
 -   [https://ladal.edu.au/tutorials/net/net.html](https://ladal.edu.au/tutorials/net/net.html)
 -   [https://juliasilge.github.io/tidytext/articles/topic_modeling.html](https://juliasilge.github.io/tidytext/articles/topic_modeling.html)
 -   [https://paldhous.github.io/NICAR/2019/r-text-analysis.html](https://paldhous.github.io/NICAR/2019/r-text-analysis.html)
--   [https://psyteachr.github.io/hack-your-data/scrape-twitter.html](https://psyteachr.github.io/hack-your-data/scrape-twitter.html)
 
 
 ## Bibliografía básica 
@@ -134,6 +130,7 @@ El repositorio clonado tiene la siguiente estructura de directorios:
   
 ```bash
 ├── clases
+    └── tareas
 └── proyectos
     ├── bib
     ├── code
