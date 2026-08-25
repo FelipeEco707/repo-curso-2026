@@ -1,10 +1,10 @@
 # ECON 520 - Ciencia de Datos para Economía y Negocios
 
 > Docentes: Sergio De Raco y Viktoriya Semeshenko
-> Versión: Primer cuatrimestre 2026
+> Versión: Segundo cuatrimestre 2026
 
 ```
-18 de Marzo, 2026
+25 de Agosto, 2026
 ```
 
 ## Objetivos de aprendizaje
@@ -19,15 +19,15 @@
 
 * Estimular la aplicación del abordaje computacional a problemas de interés económico y social de diversa índole.
 
+* Aprender metodologías seleccionadas de análisis de datos y aplicarlas a conjuntos de datos de interés económico. 2026-C2: procesamiento y análisis de textos, redes complejas.
 
 ## Requerimientos
 
 - **Formales**: Análisis Estadístico I (540) y Matemática Aplicada II (544).
 
-- **Deseables**: Interés por el trabajo participativo en equipo y el aprendizaje mediante prueba y error.
-
 - **Técnicos**: Notebook personal con 8Gb RAM (mínimo) y 10Gb de espacio en disco (ideal).
 
+- **Deseables**: Interés por el trabajo participativo en equipo y el aprendizaje mediante prueba y error.
 
 ## Criterio de evaluación
 
@@ -39,7 +39,7 @@ Para la aprobación del curso se requiere:
 4. elaboración y aprobación de un proyecto de datos final en grupos
 
 ## Clases
-[Cronograma tentativo de clases](https://bit.ly/Cronograma-E520-2026C1) con conenidos y links a material actualizados a medida que avanza el curso.
+[Cronograma tentativo de clases](https://bit.ly/crono-e520-2026c2) con contenidos y links a material actualizados a medida que avanza el curso.
 
 ## Resumen de contenidos
 
@@ -51,9 +51,7 @@ Para la aprobación del curso se requiere:
 
 * *Unidad 2a. Aplicaciones 1: Redes de interacciones*. Introducción al análisis de redes en R. Statistical Analysis of Network Data. Tutorial Kateto. Casos: Redes Gutenberg/Redes sociales ONA Book (API tweets British network) o Trump 
 
-* *Unidad 2b. Aplicaciones 2: Captura de datos no tradicionales*. Utilización de APIs para la captura de datos. 
-
-* *Unidad 2c. Aplicaciones 3: Text mining*. Introducción al análisis de textos en R. Tidytext con novelas y datos de Twitter. 
+* *Unidad 2b. Aplicaciones 2: Text mining*. Introducción al análisis de textos en R. Tidytext con novelas y datos de Twitter. 
 
 
 ## Fuentes utilizadas
