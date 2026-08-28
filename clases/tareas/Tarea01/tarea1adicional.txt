@@ -1,0 +1,509 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260827192351
+Nombre de usuario: ABC\felip
+Usuario RunAs: ABC\felip
+Nombre de la configuración: 
+Máquina: ABC (Microsoft Windows NT 10.0.26200.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 17820
+PSVersion: 5.1.26100.9168
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9168
+BuildVersion: 10.0.26100.9168
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\Users\felip\OneDrive\Desktop\ahoramismo.txt
+PS C:\Users\felip\OneDrive\Desktop\tutorial> pwd
+
+Path
+----
+C:\Users\felip\OneDrive\Desktop\tutorial
+
+
+PS C:\Users\felip\OneDrive\Desktop\tutorial> cd
+PS C:\Users\felip\OneDrive\Desktop\tutorial> cd ./
+PS C:\Users\felip\OneDrive\Desktop\tutorial> cd /
+PS C:\> ls
+
+
+    Directorio: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     16/10/2025  09:55 p. m.                $WINDOWS.~BT
+d-----     30/10/2025  11:30 a. m.                ESD
+d-----     29/06/2025  11:18 a. m.                inetpub
+d-----     01/04/2024  04:26 a. m.                PerfLogs
+d-r---     26/08/2026  08:58 a. m.                Program Files
+d-r---     25/08/2026  01:20 p. m.                Program Files (x86)
+d-----     25/08/2026  01:17 p. m.                Python314
+d-----     27/08/2026  06:55 p. m.                tmp
+d-----     18/08/2026  04:16 p. m.                Tools
+d-r---     31/07/2026  04:21 p. m.                Users
+d-----     25/08/2026  01:17 p. m.                Windows
+d-----     04/10/2025  12:01 p. m.                XboxGames
+-a----     15/04/2026  11:15 a. m.         112552 appverifUI.dll
+-a----     03/04/2025  11:54 p. m.          12288 DumpStack.log
+-a----     15/04/2026  11:15 a. m.          68216 vfcompat.dll
+
+
+PS C:\> cd Users
+PS C:\Users> ls
+
+
+    Directorio: C:\Users
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     27/08/2026  01:06 p. m.                felip
+d-r---     29/06/2025  11:31 a. m.                Public
+d-----     26/11/2025  01:39 p. m.                TEMP
+d-----     04/12/2025  01:20 p. m.                TEMP.Font Driver Host
+d-----     18/12/2025  03:30 p. m.                TEMP.Font Driver Host.000
+d-----     29/01/2026  05:47 p. m.                TEMP.Font Driver Host.001
+d-----     06/02/2026  07:36 a. m.                TEMP.Font Driver Host.002
+d-----     14/02/2026  03:36 p. m.                TEMP.Font Driver Host.003
+d-----     01/03/2026  11:26 p. m.                TEMP.Font Driver Host.004
+d-----     11/03/2026  07:34 p. m.                TEMP.Font Driver Host.005
+d-----     26/03/2026  05:55 a. m.                TEMP.Font Driver Host.006
+d-----     02/04/2026  02:58 p. m.                TEMP.Font Driver Host.007
+d-----     06/05/2026  05:00 p. m.                TEMP.Font Driver Host.008
+d-----     28/05/2026  04:28 p. m.                TEMP.Font Driver Host.009
+d-----     11/06/2026  12:11 a. m.                TEMP.Font Driver Host.010
+d-----     23/06/2026  09:48 p. m.                TEMP.Font Driver Host.011
+d-----     31/07/2026  04:21 p. m.                TEMP.Font Driver Host.012
+d-----     26/11/2025  01:39 p. m.                UMFD-0
+d-----     04/12/2025  01:20 p. m.                UMFD-0.Font Driver Host
+d-----     18/12/2025  03:30 p. m.                UMFD-0.Font Driver Host.000
+d-----     29/01/2026  05:46 p. m.                UMFD-0.Font Driver Host.001
+d-----     06/02/2026  07:36 a. m.                UMFD-0.Font Driver Host.002
+d-----     14/02/2026  03:36 p. m.                UMFD-0.Font Driver Host.003
+d-----     01/03/2026  11:26 p. m.                UMFD-0.Font Driver Host.004
+d-----     11/03/2026  07:34 p. m.                UMFD-0.Font Driver Host.005
+d-----     26/03/2026  05:55 a. m.                UMFD-0.Font Driver Host.006
+d-----     02/04/2026  02:58 p. m.                UMFD-0.Font Driver Host.007
+d-----     06/05/2026  05:00 p. m.                UMFD-0.Font Driver Host.008
+d-----     28/05/2026  04:28 p. m.                UMFD-0.Font Driver Host.009
+d-----     11/06/2026  12:11 a. m.                UMFD-0.Font Driver Host.010
+d-----     23/06/2026  09:48 p. m.                UMFD-0.Font Driver Host.011
+d-----     31/07/2026  04:21 p. m.                UMFD-0.Font Driver Host.012
+d-----     29/06/2025  12:47 p. m.                Vicky
+d-----     02/12/2025  01:08 p. m.                WsiAccount
+
+
+PS C:\Users> ls felp
+ls : No se encuentra la ruta de acceso 'C:\Users\felp' porque no existe.
+En línea: 1 Carácter: 1
++ ls felp
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\felp:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ls : No se encuentra la ruta de acceso 'C:\Users\felp' porque no existe.
+En línea: 1 Carácter: 1
++ ls felp
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\felp:String) [Get-ChildItem], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+PS C:\Users> ls felip
+
+
+    Directorio: C:\Users\felip
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     02/06/2025  07:51 p. m.                .android
+d-----     17/08/2026  08:15 p. m.                .cache
+d-----     27/08/2026  01:06 p. m.                .claude
+d-----     27/08/2026  07:23 p. m.                .codex
+d-----     12/04/2026  04:33 p. m.                .config
+d-----     25/08/2026  02:11 p. m.                .copilot
+d-----     05/10/2025  10:08 p. m.                .insomniac
+d-----     29/10/2025  03:24 p. m.                .lunarclient
+d-----     18/08/2026  04:16 p. m.                .m2
+d-----     05/08/2026  04:59 a. m.                .ssh
+d-----     19/10/2025  05:06 p. m.                .VirtualBox
+d-----     05/05/2026  10:15 p. m.                .vscode
+d-----     18/08/2026  11:59 a. m.                .vscode-R
+d-----     05/05/2026  10:15 p. m.                .vscode-shared
+d-----     02/04/2025  07:11 p. m.                ansel
+d-r---     29/06/2025  04:52 p. m.                Contacts
+d-----     17/08/2026  08:38 p. m.                Documents
+d-----     18/08/2026  12:37 p. m.                Econ-520
+d-r---     29/06/2025  04:52 p. m.                Favorites
+d-r---     29/06/2025  04:52 p. m.                Links
+d-----     17/08/2026  07:47 p. m.                locales
+dar--l     15/04/2026  09:25 a. m.                OneDrive
+d-----     17/08/2026  07:47 p. m.                resources
+d-r---     28/03/2026  02:19 p. m.                Saved Games
+d-r---     29/06/2025  04:52 p. m.                Searches
+d-----     03/04/2025  11:10 p. m.                Videos
+d-----     16/10/2025  10:02 p. m.                VirtualBox VMs
+d-----     31/01/2026  07:37 p. m.                Zomboid
+-a----     19/05/2025  06:34 p. m.           6579 -1.14-windows.xml
+-a----     25/08/2026  05:38 p. m.           3405 .bash_history
+-a----     27/08/2026  01:06 p. m.            389 .claude.json
+-a----     19/08/2025  02:25 a. m.             53 .git-for-windows-updater
+-a----     15/12/2025  05:04 p. m.            307 .gitconfig
+-a----     24/08/2026  03:16 p. m.             20 .lesshst
+-a----     26/11/2025  10:16 p. m.             15 .python_history
+-a----     28/07/2025  09:42 p. m.            909 .viminfo
+-a----     07/08/2026  06:05 p. m.         119889 chrome_100_percent.pak
+-a----     07/08/2026  06:05 p. m.         197073 chrome_200_percent.pak
+-a----     07/08/2026  06:05 p. m.        4741488 d3dcompiler_47.dll
+-a----     07/08/2026  06:05 p. m.       25637376 dxcompiler.dll
+-a----     07/08/2026  06:05 p. m.        1509760 dxil.dll
+-a----     07/08/2026  06:05 p. m.        3057152 ffmpeg.dll
+-a----     07/08/2026  06:05 p. m.       10876560 icudtl.dat
+-a----     07/08/2026  06:05 p. m.         478208 libEGL.dll
+-a----     07/08/2026  06:05 p. m.        8002560 libGLESv2.dll
+-a----     07/08/2026  06:05 p. m.           1096 LICENSE
+-a----     07/08/2026  06:05 p. m.       20367775 LICENSES.chromium.html
+-a----     26/11/2025  10:11 p. m.           2736 main.py
+-a----     07/08/2026  06:05 p. m.        6876023 resources.pak
+-a----     07/08/2026  06:28 p. m.      248931424 rstudio.exe
+-a----     07/08/2026  06:05 p. m.         346432 snapshot_blob.bin
+-a----     30/12/2024  04:27 p. m.              0 Sti_Trace.log
+-a----     17/08/2026  07:48 p. m.         217161 Uninstall.exe
+-a----     07/08/2026  06:05 p. m.         721176 v8_context_snapshot.bin
+-a----     07/08/2026  06:05 p. m.              6 version
+-a----     07/08/2026  06:05 p. m.        5525504 vk_swiftshader.dll
+-a----     07/08/2026  06:05 p. m.            106 vk_swiftshader_icd.json
+-a----     07/08/2026  06:05 p. m.         925696 vulkan-1.dll
+
+
+PS C:\Users> cd Felip/Econ-520
+PS C:\Users\Felip\Econ-520> ls
+PS C:\Users\Felip\Econ-520> cd ../OneDrive/Desktop
+PS C:\Users\Felip\OneDrive\Desktop> cd /Tareas/Trea01
+cd : No se encuentra la ruta de acceso 'C:\Tareas\Trea01' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Tareas/Trea01
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Tareas\Trea01:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Tareas\Trea01' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Tareas/Trea01
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Tareas\Trea01:String) [Set-Location], ItemNotFound
+   Exception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Felip\OneDrive\Desktop> cd /Tareas
+cd : No se encuentra la ruta de acceso 'C:\Tareas' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Tareas
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Tareas:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Tareas' porque no existe.
+En línea: 1 Carácter: 1
++ cd /Tareas
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Tareas:String) [Set-Location], ItemNotFoundExcepti
+   on
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Felip\OneDrive\Desktop> cd Tareas
+PS C:\Users\Felip\OneDrive\Desktop\Tareas> cd Tareas01
+cd : No se encuentra la ruta de acceso 'C:\Users\Felip\OneDrive\Desktop\Tareas\Tareas01' porque no existe.
+En línea: 1 Carácter: 1
++ cd Tareas01
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Felip\...Tareas\Tareas01:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\Felip\OneDrive\Desktop\Tareas\Tareas01' porque no
+existe.
+En línea: 1 Carácter: 1
++ cd Tareas01
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Felip\...Tareas\Tareas01:String) [Set-Locati
+   on], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     27/08/2026  07:22 p. m.                Tarea01
+d-----     27/08/2026  07:21 p. m.                Tarea02
+d-----     27/08/2026  07:21 p. m.                Tarea03
+d-----     27/08/2026  07:21 p. m.                Tarea04
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas> cd Tarea01
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----     27/08/2026  07:19 p. m.           2468 tarea1.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> mkdir "ejercicio1","ejercicio2","ejercicio3","ejercicio4"
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     27/08/2026  07:26 p. m.                ejercicio1
+d-----     27/08/2026  07:26 p. m.                ejercicio2
+d-----     27/08/2026  07:26 p. m.                ejercicio3
+d-----     27/08/2026  07:26 p. m.                ejercicio4
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     27/08/2026  07:26 p. m.                ejercicio1
+d-----     27/08/2026  07:26 p. m.                ejercicio2
+d-----     27/08/2026  07:26 p. m.                ejercicio3
+d-----     27/08/2026  07:26 p. m.                ejercicio4
+-a----     27/08/2026  07:19 p. m.           2468 tarea1.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> cd ejercicio1
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1> echo "Este archivo es el que voy a copiar y mover por todos lados" > produccion.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Este archivo es el que voy a copiar y mover por todos lados"
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1> cp produccion.txt backup.txt
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----     27/08/2026  07:28 p. m.            124 backup.txt
+-a----     27/08/2026  07:28 p. m.            124 produccion.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1> mv produccion.txt 
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----     27/08/2026  07:28 p. m.            124 backup.txt
+-a----     27/08/2026  07:28 p. m.            124 produccion.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1> mv produccion.txt  /..
+mv : Acceso denegado a la ruta de acceso.
+En línea: 1 Carácter: 1
++ mv produccion.txt  /..
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Felip\...\produccion.txt:FileInfo) [Move-Item], 
+UnauthorizedAccessException
+    + FullyQualifiedErrorId : MoveFileInfoItemUnauthorizedAccessError,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : Acceso denegado a la ruta de acceso.
+En línea: 1 Carácter: 1
++ mv produccion.txt  /..
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Felip\...\produccion.txt:FileInfo) [Move-I
+   tem], UnauthorizedAccessException
+    + FullyQualifiedErrorId : MoveFileInfoItemUnauthorizedAccessError,Microsoft.PowerShell.Commands.
+   MoveItemCommand
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1> mv produccion.txt  ../
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----     27/08/2026  07:28 p. m.            124 backup.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio1> cd ..
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     27/08/2026  07:29 p. m.                ejercicio1
+d-----     27/08/2026  07:26 p. m.                ejercicio2
+d-----     27/08/2026  07:26 p. m.                ejercicio3
+d-----     27/08/2026  07:26 p. m.                ejercicio4
+-a----     27/08/2026  07:28 p. m.            124 produccion.txt
+-a----     27/08/2026  07:19 p. m.           2468 tarea1.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> copy produccion.txt feature.txt
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> mv feature.txt ejercicio4
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> rm ejercicio3
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     27/08/2026  07:29 p. m.                ejercicio1
+d-----     27/08/2026  07:26 p. m.                ejercicio2
+d-----     27/08/2026  07:30 p. m.                ejercicio4
+-a----     27/08/2026  07:28 p. m.            124 produccion.txt
+-a----     27/08/2026  07:19 p. m.           2468 tarea1.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> cd ejercicio4
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----     27/08/2026  07:28 p. m.            124 feature.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4> copy feature.txt feature2.txt
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----     27/08/2026  07:28 p. m.            124 feature.txt
+-a----     27/08/2026  07:28 p. m.            124 feature2.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4> copy feature2.txt feature3.txt
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----     27/08/2026  07:28 p. m.            124 feature.txt
+-a----     27/08/2026  07:28 p. m.            124 feature2.txt
+-a----     27/08/2026  07:28 p. m.            124 feature3.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4> mv feature3.txt ../ejercicio3
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4> cd ../ejercicio3
+cd : No se encuentra la ruta de acceso '../ejercicio3' porque no existe.
+En línea: 1 Carácter: 1
++ cd ../ejercicio3
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (../ejercicio3:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso '../ejercicio3' porque no existe.
+En línea: 1 Carácter: 1
++ cd ../ejercicio3
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (../ejercicio3:String) [Set-Location], ItemNotFoundExc
+   eption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio4> cd ..
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> ls
+
+
+    Directorio: C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----     27/08/2026  07:29 p. m.                ejercicio1
+d-----     27/08/2026  07:26 p. m.                ejercicio2
+d-----     27/08/2026  07:30 p. m.                ejercicio4
+-a----     27/08/2026  07:28 p. m.            124 ejercicio3
+-a----     27/08/2026  07:28 p. m.            124 produccion.txt
+-a----     27/08/2026  07:19 p. m.           2468 tarea1.txt
+
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> cd ejercicio3
+cd : No se encuentra la ruta de acceso 'ejercicio3' porque no existe.
+En línea: 1 Carácter: 1
++ cd ejercicio3
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ejercicio3:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'ejercicio3' porque no existe.
+En línea: 1 Carácter: 1
++ cd ejercicio3
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ejercicio3:String) [Set-Location], ItemNotFoundExcept
+   ion
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> mv ejercicio3.txt ejercicio4
+mv : No se encuentra la ruta de acceso 'C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio3.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv ejercicio3.txt ejercicio4
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Felip\...\ejercicio3.txt:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso
+'C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01\ejercicio3.txt' porque no existe.
+En línea: 1 Carácter: 1
++ mv ejercicio3.txt ejercicio4
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Felip\...\ejercicio3.txt:String) [Move-Item]
+   , ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> mv ejercicio3 ejercicio4
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> rename
+rename : El término 'rename' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ rename
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (rename:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+rename : El término 'rename' no se reconoce como nombre de un cmdlet, función, archivo de script o
+programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso,
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ rename
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (rename:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Felip\OneDrive\Desktop\Tareas\Tarea01> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20260827193340
+**********************

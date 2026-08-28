@@ -1,0 +1,142 @@
+﻿### Hola profe, tuve un inconveniente y no pude hacerlo en mi computadora que uso normalmente en la clase, de todas maneras esta casi todo igual que del adicional. Lo único que no pude seguir es la parte de los comandos propios de Ubuntu como wc ya que este log es de PowerShell
+cd /
+cd Users
+cd /
+cd home
+cd desktop
+cd etc
+whoami
+cd /home/users/felip/desktop
+cd /home/users/felip
+cd /Users/felip
+cd /Desktop
+cd \OneDrive\Desktop
+cd ~Users
+cd ~OneDrive
+cd OneDrive
+cd Desktop
+cd ~
+cd ~/OneDrive
+cd ~/Desktop
+cd Desktop
+cd ..
+cd ../OneDrive
+cd ../../felip/OneDrive/Desktop
+cd a
+cd ..
+mkdir /tmp/tutorial
+cd tmp/tutorial
+dir
+mkdir tutorial
+dir
+cd tutorial
+mkdir dir1 dir2 dir3
+mkdir
+mkdir --help
+ls dir1 dir2 dir3
+mkdir -p dir1/dir2/dir3
+dir
+c dir1
+cd dir1
+cd dir2
+cd dir3
+ls
+c ../../..
+cd ../../..
+ls
+mkdir another
+mkdir folder
+mkdir "folder 1"
+mkdir folder\ 3
+mkdir 'folder 2'
+mkdir "folder 4" "folder 5"
+mkdir "folder 4","folder 5"
+ls
+ls > output.txt
+ls
+cat output.txt
+ls > output.txt
+ls
+hello
+echo "This is a test"
+echo "This is a test" > test_1.txt
+echo "This is a second test" > test_2.txt
+echo "This is a tercer test" > test_3.txt
+ls
+cat test_1.txt test_2.txt test_3.txt
+echo "Lower case" > a.txt
+echo "Caso de Mayusculas" > A.TXT
+echo "Caso de MIXEADO" > A.txt
+ls
+mv combined.txt dir1
+echo Hola mundo > combined.txt
+mv combined.txt dir1
+list
+ls
+cd dir1
+ls
+cd ..
+ls dir1
+mv dir1/* .
+mv combined.txt test_* dir3 dir
+mv combined.txt test_* dir3
+mv combined.txt test_*
+mv dir2/combined.txt dir4/dir5/dir6
+cd dir2
+ls
+cd ../dir1
+ls
+cd ../dir3
+ls
+cd ..
+ls
+mkdir dir3
+mv combined.txt dir2
+mkdir dir4,dir5,dir6
+mv dir2/combined.txt dir4/dir5/dir6
+cp dir4/dir5/dir6
+ls
+ls dir1
+ls /dir1
+cd dir1
+list
+ls
+cd ..
+cd dir2
+ls
+cp combined.txt
+cp combined.txt .
+cp
+cp combined.txt backup.txt
+ls
+mv backup.txt ..
+mv "folder 1" folder_1
+mv "folder 2" folder_2
+mv "folder 3" folder_3
+mv "folder 4" folder_4
+mv "folder 5" folder_5
+mv "folder 6" folder_6
+ls
+cd ..
+ls
+rm folder_
+rm folder_*
+ls
+rm folder
+ls
+rm folder,folder 1, folder 2, folder 3
+rm folder,"folder 1"
+rm "folder 2","folder 1"
+rm "folder 2"
+rm folder 2
+rm folder_2
+rmdir "folder 2"
+ls
+rmdir "folder 4"
+rmdir "folder 5"
+rmdir dir1,dir2,dir3,dir4,dir5,dir6
+ls
+wc -l output.txt
+wc 
+wc
+Get-Content (Get-PSReadLineOption).HistorySavePath | Out-File "C:\Users\felip\OneDrive\Desktop\historial-powershell-completo.txt" -Encoding UTF8
